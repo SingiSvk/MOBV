@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pubList">
+
+    <fragment
+        android:id="@+id/pubList"
+        android:name="com.example.mobv.fragment.PubListFragment"
+        android:label="fragment_pub_list"
+        tools:layout="@layout/fragment_pub_list">
+        <action
+            android:id="@+id/action_pubList_to_pubDetails"
+            app:destination="@id/pubDetails" />
+        <action
+            android:id="@+id/action_pubList_to_dataFragment"
+            app:destination="@id/addPubFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pubDetails"
+        android:name="com.example.mobv.fragment.PubDetailsFragment"
+        android:label="fragment_pub_list"
+        tools:layout="@layout/fragment_pub_details" >
+        <argument
+            android:name="index"
+            app:argType="integer" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="lat"
+            app:argType="float" />
+        <argument
+            android:name="lon"
+            app:argType="float" />
+        <action
+            android:id="@+id/action_pubDetails_to_pubList"
+            app:destination="@id/pubList" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addPubFragment"
+        android:name="com.example.mobv.fragment.AddPubFragment"
+        android:label="fragment_add_pub"
+        tools:layout="@layout/fragment_add_pub" >
+        <action
+            android:id="@+id/action_addPubFragment_to_logoFragment"
+            app:destination="@id/logoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/logoFragment"
+        android:name="com.example.mobv.fragment.LogoFragment"
+        android:label="fragment_logo"
+        tools:layout="@layout/fragment_logo">
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="name2"
+            app:argType="string" />
+        <argument
+            android:name="lon"
+            app:argType="string" />
+        <argument
+            android:name="lat"
+            app:argType="string" />
+    </fragment>
+</navigation>
