@@ -14,5 +14,23 @@
     <string name="affirmation8">I have the courage to follow my heart.</string>
     <string name="affirmation9">Things will unfold at precisely the right time.</string>
     <string name="affirmation10">I will be present in all the moments that this day brings.</string>
+    <string name="user_name">Používateľské meno</string>
+    <string name="add">Pridať</string>
+    <string name="password">Heslo</string>
+    <string name="log_in">Prihlásiť sa</string>
+    <string name="sign_up">Registrovať sa</string>
+    <string name="check_in">Check in</string>
+    <string name="back">Späť</string>
+    <string name="sort_by">Zoradiť podľa:</string>
+    <string name="log_out">Odhlásiť</string>
+    <string name="by_name">Mena</string>
+    <string name="by_users">Návštevníkov</string>
+    <string name="by_distance">Vzdialenosti</string>
+    <string name="by_type">Typu</string>
+    <string name="location">Location</string>
+    <string name="friends">Friends</string>
+    <string name="avatar">Avatar</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="map">Map</string>
 
 </resources>

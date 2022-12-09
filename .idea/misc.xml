@@ -1,5 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.AddFriendFragment binding" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.AddFriendFragment viewModel" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.helpers.Config API_KEY" />
+      <entry_point TYPE="method" FQNAME="com.example.mobv.ui.widget.detailList.DetailRecyclerViewKt void applyDetailItems(com.example.mobv.ui.widget.detailList.DetailRecyclerView $this$applyDetailItems, java.util.List&lt;com.example.mobv.ui.widget.detailList.PubDetailItem&gt; details)" />
+      <entry_point TYPE="method" FQNAME="com.example.mobv.ui.widget.friendList.FriendsRecyclerViewKt void applyItems(com.example.mobv.ui.widget.friendList.FriendsRecyclerView $this$applyItems, java.util.List&lt;com.example.mobv.ui.viewmodel.data.PubFriend&gt; friends, java.util.List&lt;com.example.mobv.data.db.model.Pub&gt; pubs)" />
+      <entry_point TYPE="method" FQNAME="com.example.mobv.ui.widget.pubList.PubsRecyclerViewKt void applyItems(com.example.mobv.ui.widget.pubList.PubsRecyclerView $this$applyItems, java.util.List&lt;com.example.mobv.data.db.model.Pub&gt; pubs)" />
+      <entry_point TYPE="method" FQNAME="com.example.mobv.ui.widget.nearbyPubs.NearbyPubsRecyclerViewKt void applyNearbyPubs(com.example.mobv.ui.widget.nearbyPubs.NearbyPubsRecyclerView $this$applyNearbyPubs, java.util.List&lt;com.example.mobv.ui.viewmodel.data.NearbyPub&gt; pubs)" />
+      <entry_point TYPE="method" FQNAME="com.example.mobv.helpers.BindersKt void applyShowTextToast(android.view.View view, com.example.mobv.helpers.Evento&lt;java.lang.String&gt; message)" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.PubDetailsFragment args$delegate" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.LoginFragment authViewModel" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.RegisterFragment authViewModel" />
+      <entry_point TYPE="method" FQNAME="com.example.mobv.helpers.DataTricksKt void autoNotify(androidx.recyclerview.widget.RecyclerView.Adapter&lt;?&gt; $this$autoNotify, java.util.List&lt;? extends T&gt; oldList, java.util.List&lt;? extends T&gt; newList, kotlin.jvm.functions.Function2&lt;? super T,? super T,java.lang.Boolean&gt; compare)" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/mobv/helpers/Binders.kt" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.FriendsFragment binding" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.LoginFragment binding" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.PositionFragment binding" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.PubDetailsFragment binding" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.PubsFragment binding" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.RegisterFragment binding" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/mobv/helpers/DataTricks.kt" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/mobv/ui/widget/detailList/DetailRecyclerView.kt" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.DetailViewModel details" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.FriendsViewModel friends" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/mobv/ui/widget/friendList/FriendsRecyclerView.kt" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.PositionFragment fusedLocationClient" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.PubsFragment fusedLocationClient" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.PositionFragment geofencingClient" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.AuthViewModel loading" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.DetailViewModel loading" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.FriendsViewModel loading" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.MapViewModel loading" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.PubsViewModel loading" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.PositionFragment locationPermissionRequest" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.PubsFragment locationPermissionRequest" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.MapViewModel myPub" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/mobv/ui/widget/nearbyPubs/NearbyPubsRecyclerView.kt" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.FriendsViewModel pubs" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.MapViewModel pubs" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.PubsViewModel pubs" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/mobv/ui/widget/pubList/PubsRecyclerView.kt" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.DetailViewModel type" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.viewmodel.AuthViewModel user" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.FriendsFragment viewModel" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.PositionFragment viewModel" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.PubDetailsFragment viewModel" />
+      <entry_point TYPE="field" FQNAME="com.example.mobv.ui.fragment.PubsFragment viewModel" />
+      <entry_point TYPE="method" FQNAME="com.example.mobv.ui.widget.friendList.FriendsRecyclerView$-1 void onFriendClick(com.example.mobv.ui.viewmodel.data.PubFriend pubFriend, java.util.List&lt;com.example.mobv.data.db.model.Pub&gt; pubs)" />
+      <entry_point TYPE="method" FQNAME="com.example.mobv.ui.widget.nearbyPubs.NearbyPubsRecyclerView$-1 void onPubClick(com.example.mobv.ui.viewmodel.data.NearbyPub nearbyPub)" />
+      <entry_point TYPE="method" FQNAME="com.example.mobv.ui.widget.pubList.PubsRecyclerView$-1 void onPubClick(com.example.mobv.data.db.model.Pub pub)" />
+    </entry_points>
+    <pattern value="com.example.mobv.ui.fragment.AddFriendFragment" />
+    <pattern value="com.example.mobv.data.api.user.friends.AddFriendRequest" />
+    <pattern value="com.example.mobv.data.api.user.friends.AddFriendRequest" method="AddFriendRequest" />
+    <pattern value="com.example.mobv.ui.viewmodel.FriendsViewModel" method="addFriend" />
+    <pattern value="com.example.mobv.data.DataService" method="addFriend" />
+    <pattern value="com.example.mobv.ExampleUnitTest" method="addition_isCorrect" />
+    <pattern value="com.example.mobv.data.db.AppRoomDatabase" />
+    <pattern value="com.example.mobv.data.api.helper.AuthInterceptor" />
+    <pattern value="com.example.mobv.data.api.helper.AuthInterceptor" method="AuthInterceptor" />
+    <pattern value="com.example.mobv.ui.viewmodel.AuthViewModel" />
+    <pattern value="com.example.mobv.ui.viewmodel.AuthViewModel" method="AuthViewModel" />
+    <pattern value="com.example.mobv.ui.widget.nearbyPubs.NearbyPubsAdapter.NearbyPubItemViewHolder" method="bind" />
+    <pattern value="com.example.mobv.ui.widget.pubList.PubsAdapter.PubItemViewHolder" method="bind" />
+    <pattern value="com.example.mobv.ui.widget.friendList.FriendsAdapter.FriendItemViewHolder" method="bind" />
+    <pattern value="com.example.mobv.data.db.AppRoomDatabase.Companion" method="buildDatabase" />
+    <pattern value="com.example.mobv.data.api.pubs.PubsApiService" method="buildService" />
+    <pattern value="com.example.mobv.data.api.user.UserApiService" method="buildService" />
+    <pattern value="com.example.mobv.ui.viewmodel.PubsViewModel" method="calculateDist" />
+    <pattern value="com.example.mobv.ui.fragment.PositionFragment" method="checkBackgroundPermissions" />
+    <pattern value="com.example.mobv.ui.viewmodel.MapViewModel" method="checkIn" />
+    <pattern value="com.example.mobv.ui.viewmodel.MapViewModel" method="checkOut" />
+    <pattern value="com.example.mobv.workers.CheckoutWorker" />
+    <pattern value="com.example.mobv.workers.CheckoutWorker" method="CheckoutWorker" />
+    <pattern value="com.example.mobv.ui.fragment.PositionFragment" method="checkPermissions" />
+    <pattern value="com.example.mobv.ui.fragment.PubsFragment" method="checkPermissions" />
+    <pattern value="com.example.mobv.helpers.PreferenceData" method="clearData" />
+    <pattern value="com.example.mobv.data.DataService.Companion" />
+    <pattern value="com.example.mobv.data.db.AppRoomDatabase.Companion" />
+    <pattern value="com.example.mobv.data.db.model.PubRoomDatabase.Companion" />
+    <pattern value="com.example.mobv.helpers.PreferenceData.Companion" />
+    <pattern value="com.example.mobv.helpers.Config" />
+    <pattern value="com.example.mobv.ui.fragment.PositionFragment" method="createFence" />
+    <pattern value="com.example.mobv.data.DataService" method="createUser" />
+    <pattern value="com.example.mobv.data.DataService" />
+    <pattern value="com.example.mobv.data.DataService" method="DataService" />
+    <pattern value="com.example.mobv.data.Datasource" />
+    <pattern value="com.example.mobv.data.DataService.Companion" method="dateToTimeStamp" />
+    <pattern value="com.example.mobv.data.db.PubLocalCache" method="delete" />
+    <pattern value="com.example.mobv.data.db.PubLocalCache" method="deleteAll" />
+    <pattern value="com.example.mobv.ui.widget.detailList.DetailRecyclerView" />
+    <pattern value="com.example.mobv.ui.widget.detailList.DetailRecyclerView" method="DetailRecyclerView" />
+    <pattern value="com.example.mobv.ui.viewmodel.DetailViewModel" />
+    <pattern value="com.example.mobv.ui.viewmodel.DetailViewModel" method="DetailViewModel" />
+    <pattern value="com.example.mobv.ui.viewmodel.data.NearbyPub" method="distanceTo" />
+    <pattern value="com.example.mobv.data.db.model.Pub" method="distanceTo" />
+    <pattern value="com.example.mobv.ExampleInstrumentedTest" />
+    <pattern value="com.example.mobv.ExampleUnitTest" />
+    <pattern value="com.example.mobv.data.db.model.Friend" />
+    <pattern value="com.example.mobv.data.db.model.Friend" method="Friend" />
+    <pattern value="com.example.mobv.ui.widget.friendList.FriendsAdapter.FriendItemViewHolder" />
+    <pattern value="com.example.mobv.data.api.user.friends.FriendResponse" />
+    <pattern value="com.example.mobv.data.api.user.friends.FriendResponse" method="FriendResponse" />
+    <pattern value="com.example.mobv.ui.widget.friendList.FriendsAdapter" />
+    <pattern value="com.example.mobv.ui.widget.friendList.FriendsEvents" />
+    <pattern value="com.example.mobv.ui.fragment.FriendsFragment" />
+    <pattern value="com.example.mobv.ui.widget.friendList.FriendsRecyclerView" />
+    <pattern value="com.example.mobv.ui.widget.friendList.FriendsRecyclerView" method="FriendsRecyclerView" />
+    <pattern value="com.example.mobv.ui.viewmodel.FriendsViewModel" />
+    <pattern value="com.example.mobv.GeofenceBroadcastReceiver" />
+    <pattern value="com.example.mobv.ui.viewmodel.FriendsViewModel" method="getAddedFriend" />
+    <pattern value="com.example.mobv.ui.viewmodel.MapViewModel" method="getCheckedIn" />
+    <pattern value="com.example.mobv.data.db.model.PubRoomDatabase.Companion" method="getDatabase" />
+    <pattern value="com.example.mobv.data.api.user.friends.GetFriendResponse" />
+    <pattern value="com.example.mobv.data.api.user.friends.GetFriendResponse" method="GetFriendResponse" />
+    <pattern value="com.example.mobv.helpers.PreferenceData.Companion" method="getInstance" />
+    <pattern value="com.example.mobv.data.db.AppRoomDatabase.Companion" method="getInstance" />
+    <pattern value="com.example.mobv.data.DataService.Companion" method="getInstance" />
+    <pattern value="com.example.mobv.ui.viewmodel.AuthViewModel" method="getMessage" />
+    <pattern value="com.example.mobv.ui.viewmodel.DetailViewModel" method="getMessage" />
+    <pattern value="com.example.mobv.ui.viewmodel.FriendsViewModel" method="getMessage" />
+    <pattern value="com.example.mobv.ui.viewmodel.MapViewModel" method="getMessage" />
+    <pattern value="com.example.mobv.ui.viewmodel.PubsViewModel" method="getMessage" />
+    <pattern value="com.example.mobv.data.DataService" method="getMyFriends" />
+    <pattern value="com.example.mobv.data.db.PubLocalCache" method="getPub" />
+    <pattern value="com.example.mobv.data.api.user.UserApiInterface" method="getPubs2" />
+    <pattern value="com.example.mobv.data.api.user.pubs.GetPubsResponse" />
+    <pattern value="com.example.mobv.data.api.user.pubs.GetPubsResponse" method="GetPubsResponse" />
+    <pattern value="com.example.mobv.helpers.PreferenceData" method="getUserItem" />
+    <pattern value="com.example.mobv.data.db.model.User" method="hashPassword" />
+    <pattern value="com.example.mobv.ui.fragment.LoginFragment" />
+    <pattern value="com.example.mobv.MainActivity" />
+    <pattern value="com.example.mobv.ui.fragment.PositionFragment" />
+    <pattern value="com.example.mobv.ui.fragment.PubDetailsFragment" />
+    <pattern value="com.example.mobv.data.db.model.PubRoomDatabase" />
+    <pattern value="com.example.mobv.data.api.pubs.PubsApiService" />
+    <pattern value="com.example.mobv.ui.fragment.PubsFragment" />
+    <pattern value="com.example.mobv.ui.fragment.RegisterFragment" />
+    <pattern value="com.example.mobv.data.db.model.User" />
+    <pattern value="com.example.mobv.data.api.user.UserApiService" />
+    <pattern value="com.example.mobv.data.db.PubLocalCache" method="insert" />
+    <pattern value="com.example.mobv.data.db.PubLocalCache" method="insertAll" />
+    <pattern value="com.example.mobv.data.DataService" method="listFriends" />
+    <pattern value="com.example.mobv.ui.fragment.PositionFragment" method="loadData" />
+    <pattern value="com.example.mobv.ui.viewmodel.DetailViewModel" method="loadPub" />
+    <pattern value="com.example.mobv.data.Datasource" method="loadPubs" />
+    <pattern value="com.example.mobv.ui.viewmodel.AuthViewModel" method="login" />
+    <pattern value="com.example.mobv.data.DataService" method="login" />
+    <pattern value="com.example.mobv.data.api.user.account.LoginRequest" />
+    <pattern value="com.example.mobv.data.api.user.account.LoginRequest" method="LoginRequest" />
+    <pattern value="com.example.mobv.ui.viewmodel.MapViewModel" />
+    <pattern value="com.example.mobv.ui.viewmodel.MapViewModel" method="MapViewModel" />
+    <pattern value="com.example.mobv.ui.viewmodel.data.MyFriend" />
+    <pattern value="com.example.mobv.ui.viewmodel.data.MyFriend" method="MyFriend" />
+    <pattern value="com.example.mobv.ui.viewmodel.data.MyLocation" />
+    <pattern value="com.example.mobv.ui.viewmodel.data.MyLocation" method="MyLocation" />
+    <pattern value="com.example.mobv.ui.viewmodel.data.NearbyPub" />
+    <pattern value="com.example.mobv.ui.viewmodel.data.NearbyPub" method="NearbyPub" />
+    <pattern value="com.example.mobv.ui.widget.nearbyPubs.NearbyPubsAdapter.NearbyPubItemViewHolder" />
+    <pattern value="com.example.mobv.data.DataService" method="nearbyPubs" />
+    <pattern value="com.example.mobv.ui.widget.nearbyPubs.NearbyPubsAdapter" />
+    <pattern value="com.example.mobv.ui.widget.nearbyPubs.NearbyPubsEvents" />
+    <pattern value="com.example.mobv.ui.widget.nearbyPubs.NearbyPubsRecyclerView" />
+    <pattern value="com.example.mobv.ui.widget.nearbyPubs.NearbyPubsRecyclerView" method="NearbyPubsRecyclerView" />
+    <pattern value="com.example.mobv.ui.widget.friendList.FriendsEvents" method="onFriendClick" />
+    <pattern value="com.example.mobv.ui.widget.nearbyPubs.NearbyPubsEvents" method="onPubClick" />
+    <pattern value="com.example.mobv.ui.widget.pubList.PubsEvents" method="onPubClick" />
+    <pattern value="com.example.mobv.data.db.model.Pubs.OSM3S" />
+    <pattern value="com.example.mobv.data.db.model.Pubs.OSM3S" method="OSM3S" />
+    <pattern value="com.example.mobv.ui.fragment.PositionFragment" method="permissionDialog" />
+    <pattern value="com.example.mobv.helpers.PreferenceData" />
+    <pattern value="com.example.mobv.data.db.model.Pub" />
+    <pattern value="com.example.mobv.data.DataService" method="pubCheckIn" />
+    <pattern value="com.example.mobv.data.DataService" method="pubCheckOut" />
+    <pattern value="com.example.mobv.data.db.model.PubRoomDatabase" method="pubDao" />
+    <pattern value="com.example.mobv.data.DataService" method="pubDetail" />
+    <pattern value="com.example.mobv.ui.widget.detailList.PubDetailItem" />
+    <pattern value="com.example.mobv.ui.widget.detailList.PubDetailItem" method="PubDetailItem" />
+    <pattern value="com.example.mobv.ui.viewmodel.data.PubFriend" />
+    <pattern value="com.example.mobv.ui.viewmodel.data.PubFriend" method="PubFriend" />
+    <pattern value="com.example.mobv.ui.widget.pubList.PubsAdapter.PubItemViewHolder" />
+    <pattern value="com.example.mobv.data.DataService" method="pubList" />
+    <pattern value="com.example.mobv.data.db.PubLocalCache" />
+    <pattern value="com.example.mobv.data.api.user.pubs.PubRequest" />
+    <pattern value="com.example.mobv.data.api.user.pubs.PubRequest" method="PubRequest" />
+    <pattern value="com.example.mobv.data.api.pubs.data.PubResponse" />
+    <pattern value="com.example.mobv.data.api.pubs.data.PubResponse" method="PubResponse" />
+    <pattern value="com.example.mobv.data.db.model.Pubs" />
+    <pattern value="com.example.mobv.data.db.model.Pubs" method="Pubs" />
+    <pattern value="com.example.mobv.ui.widget.pubList.PubsAdapter" />
+    <pattern value="com.example.mobv.ui.widget.pubList.PubsEvents" />
+    <pattern value="com.example.mobv.ui.widget.pubList.PubsRecyclerView" />
+    <pattern value="com.example.mobv.ui.widget.pubList.PubsRecyclerView" method="PubsRecyclerView" />
+    <pattern value="com.example.mobv.data.api.pubs.data.PubsRequest" />
+    <pattern value="com.example.mobv.data.api.pubs.data.PubsRequest" method="PubsRequest" />
+    <pattern value="com.example.mobv.data.api.pubs.data.PubsResponse" />
+    <pattern value="com.example.mobv.data.api.pubs.data.PubsResponse" method="PubsResponse" />
+    <pattern value="com.example.mobv.ui.viewmodel.PubsViewModel" />
+    <pattern value="com.example.mobv.ui.viewmodel.PubsViewModel" method="PubsViewModel" />
+    <pattern value="com.example.mobv.helpers.PreferenceData" method="putUserItem" />
+    <pattern value="com.example.mobv.ui.viewmodel.FriendsViewModel" method="refreshData" />
+    <pattern value="com.example.mobv.ui.viewmodel.PubsViewModel" method="refreshData" />
+    <pattern value="com.example.mobv.data.api.user.UserApiInterface" method="refreshToken" />
+    <pattern value="com.example.mobv.data.api.user.account.RefreshTokenRequest" />
+    <pattern value="com.example.mobv.data.api.user.account.RefreshTokenRequest" method="RefreshTokenRequest" />
+    <pattern value="com.example.mobv.data.api.user.account.RegisterRequest" />
+    <pattern value="com.example.mobv.data.api.user.account.RegisterRequest" method="RegisterRequest" />
+    <pattern value="com.example.mobv.data.api.user.UserApiInterface" method="removeFriend" />
+    <pattern value="com.example.mobv.data.api.user.friends.RemoveFriendRequest" />
+    <pattern value="com.example.mobv.data.api.user.friends.RemoveFriendRequest" method="RemoveFriendRequest" />
+    <pattern value="com.example.mobv.data.api.user.pubs.RemoveFromPubRequest" />
+    <pattern value="com.example.mobv.data.api.user.pubs.RemoveFromPubRequest" method="RemoveFromPubRequest" />
+    <pattern value="com.example.mobv.data.api.user.pubs.RemoveFromPubResponse" />
+    <pattern value="com.example.mobv.data.api.user.pubs.RemoveFromPubResponse" method="RemoveFromPubResponse" />
+    <pattern value="com.example.mobv.ui.viewmodel.AuthViewModel" method="show" />
+    <pattern value="com.example.mobv.ui.viewmodel.FriendsViewModel" method="show" />
+    <pattern value="com.example.mobv.ui.viewmodel.MapViewModel" method="show" />
+    <pattern value="com.example.mobv.ui.viewmodel.PubsViewModel" method="show" />
+    <pattern value="com.example.mobv.ui.viewmodel.AuthViewModel" method="signup" />
+    <pattern value="com.example.mobv.ui.viewmodel.PubsViewModel" method="sortPubs" />
+    <pattern value="com.example.mobv.data.DataService.Companion" method="timestampToDate" />
+    <pattern value="com.example.mobv.data.api.helper.TokenAuthenticator" />
+    <pattern value="com.example.mobv.data.api.helper.TokenAuthenticator" method="TokenAuthenticator" />
+    <pattern value="com.example.mobv.data.db.PubLocalCache" method="update" />
+    <pattern value="com.example.mobv.ExampleInstrumentedTest" method="useAppContext" />
+    <pattern value="com.example.mobv.data.api.user.UserApiInterface" />
+    <pattern value="com.example.mobv.data.api.user.account.UserResponse" />
+    <pattern value="com.example.mobv.data.api.user.account.UserResponse" method="UserResponse" />
+    <pattern value="com.example.mobv.ui.widget.friendList.FriendsAdapter.FriendItemViewHolder" method="FriendItemViewHolder" />
+    <pattern value="com.example.mobv.ui.widget.friendList.FriendsAdapter" method="FriendsAdapter" />
+    <pattern value="com.example.mobv.ui.viewmodel.FriendsViewModel" method="FriendsViewModel" />
+    <pattern value="com.example.mobv.data.api.user.account.UserResponse" method="hashPassword" />
+    <pattern value="com.example.mobv.ui.widget.friendList.FriendsRecyclerView" method="init" />
+    <pattern value="com.example.mobv.ui.widget.nearbyPubs.NearbyPubsRecyclerView" method="init" />
+    <pattern value="com.example.mobv.ui.widget.pubList.PubsRecyclerView" method="init" />
+    <pattern value="com.example.mobv.ui.widget.nearbyPubs.NearbyPubsAdapter.NearbyPubItemViewHolder" method="NearbyPubItemViewHolder" />
+    <pattern value="com.example.mobv.ui.widget.nearbyPubs.NearbyPubsAdapter" method="NearbyPubsAdapter" />
+    <pattern value="com.example.mobv.helpers.PreferenceData" method="PreferenceData" />
+    <pattern value="com.example.mobv.data.db.model.Pub" method="Pub" />
+    <pattern value="com.example.mobv.ui.widget.pubList.PubsAdapter.PubItemViewHolder" method="PubItemViewHolder" />
+    <pattern value="com.example.mobv.data.db.PubLocalCache" method="PubLocalCache" />
+    <pattern value="com.example.mobv.ui.widget.pubList.PubsAdapter" method="PubsAdapter" />
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

@@ -1,70 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/pubList">
+    app:startDestination="@id/pubs_fragment">
 
     <fragment
-        android:id="@+id/pubList"
-        android:name="com.example.mobv.fragment.PubListFragment"
-        android:label="fragment_pub_list"
-        tools:layout="@layout/fragment_pub_list">
-        <action
-            android:id="@+id/action_pubList_to_pubDetails"
-            app:destination="@id/pubDetails" />
-        <action
-            android:id="@+id/action_pubList_to_dataFragment"
-            app:destination="@id/addPubFragment" />
+        android:id="@+id/register_fragment"
+        android:name="com.example.mobv.ui.fragment.RegisterFragment"
+        android:label="fragment_register">
     </fragment>
 
     <fragment
-        android:id="@+id/pubDetails"
-        android:name="com.example.mobv.fragment.PubDetailsFragment"
-        android:label="fragment_pub_list"
-        tools:layout="@layout/fragment_pub_details" >
+        android:id="@+id/login_fragment"
+        android:name="com.example.mobv.ui.fragment.LoginFragment"
+        android:label="fragment_login">
+    </fragment>
+
+    <fragment
+        android:id="@+id/pubs_fragment"
+        android:name="com.example.mobv.ui.fragment.PubsFragment"
+        android:label="fragment_pub_list">
+    </fragment>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.example.mobv.ui.fragment.PositionFragment"
+        android:label="fragment_position">
+    </fragment>
+    <fragment
+        android:id="@+id/locate_fragment"
+        android:name="com.example.mobv.ui.fragment.PositionFragment"
+        android:label="LocateFragment">
+    </fragment>
+    <fragment
+        android:id="@+id/friends_fragment"
+        android:name="com.example.mobv.ui.fragment.FriendsFragment"
+        android:label="LocateFragment">
+    </fragment>
+    <fragment
+        android:id="@+id/add_friend_fragment"
+        android:name="com.example.mobv.ui.fragment.AddFriendFragment"
+        android:label="LocateFragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/pub_details_fragment"
+        android:name="com.example.mobv.ui.fragment.PubDetailsFragment"
+        android:label="fragment_pub_list">
         <argument
-            android:name="index"
+            android:name="id"
+            app:argType="string" />
+        <argument
+            android:name="visitors"
             app:argType="integer" />
-        <argument
-            android:name="name"
-            app:argType="string" />
-        <argument
-            android:name="lat"
-            app:argType="float" />
-        <argument
-            android:name="lon"
-            app:argType="float" />
-        <action
-            android:id="@+id/action_pubDetails_to_pubList"
-            app:destination="@id/pubList" />
     </fragment>
 
-    <fragment
-        android:id="@+id/addPubFragment"
-        android:name="com.example.mobv.fragment.AddPubFragment"
-        android:label="fragment_add_pub"
-        tools:layout="@layout/fragment_add_pub" >
-        <action
-            android:id="@+id/action_addPubFragment_to_logoFragment"
-            app:destination="@id/logoFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/logoFragment"
-        android:name="com.example.mobv.fragment.LogoFragment"
-        android:label="fragment_logo"
-        tools:layout="@layout/fragment_logo">
-        <argument
-            android:name="name"
-            app:argType="string" />
-        <argument
-            android:name="name2"
-            app:argType="string" />
-        <argument
-            android:name="lon"
-            app:argType="string" />
-        <argument
-            android:name="lat"
-            app:argType="string" />
-    </fragment>
+    <action
+        android:id="@+id/action_to_login"
+        app:destination="@id/login_fragment" />
+    <action
+        android:id="@+id/action_to_sign_up"
+        app:destination="@id/register_fragment" />
+    <action
+        android:id="@+id/action_to_pubs"
+        app:destination="@id/pubs_fragment" />
+    <action
+        android:id="@+id/action_to_locate"
+        app:destination="@id/map" />
+    <action
+        android:id="@+id/action_to_pub_details"
+        app:destination="@id/pub_details_fragment" />
+    <action
+        android:id="@+id/action_to_friends"
+        app:destination="@id/friends_fragment" />
+    <action
+        android:id="@+id/action_to_add_friend"
+        app:destination="@id/add_friend_fragment" />
 </navigation>
